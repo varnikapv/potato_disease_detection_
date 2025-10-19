@@ -1,2 +1,7 @@
-/dataset
-/potato_dataset
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.h5
+*.pkl
+*.model
