@@ -10,7 +10,7 @@ classes = ['Early_Blight', 'Healthy', 'Late_Blight']
 
 # Step 3: Load your image
 # Replace 'sample_leaf.jpg' with your image path
-img_path = 'image.png'
+img_path = 'image1.png'
 img = image.load_img(img_path, target_size=(128, 128))
 img_array = image.img_to_array(img)
 img_array = np.expand_dims(img_array, axis=0) / 255.0  # normalize

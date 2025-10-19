@@ -8,7 +8,7 @@ from PIL import Image
 model = tf.keras.models.load_model('potato_disease_model.h5')
 
 # Class labels
-classes = ['Early_Blight', 'Late_Blight', 'Healthy']
+classes = ['Early_Blight', 'Healthy', 'Late_Blight']
 
 # Streamlit UI
 st.title("🥔 Potato Disease Detection")

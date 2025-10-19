@@ -4,7 +4,7 @@ base_dir = 'dataset'                 # this will be created automatically
 original_data = 'potato_dataset'     
 
 
-classes = ['Early_Blight', 'Late_Blight', 'Healthy']
+classes = ['Early_Blight', 'Healthy', 'Late_Blight']
 
 # Create train/test folders
 for split in ['train', 'test']:
