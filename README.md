@@ -26,58 +26,32 @@ Built using **TensorFlow**, **Keras**, and **Streamlit**, this project helps far
 
 ---
 
-## 📂 Project Structure
-
-potato_disease_detection/
-│
-├── dataset/ # Training and validation images (optional)
-│ ├── Potato___Early_blight/
-│ ├── Potato___Late_blight/
-│ └── Potato___Healthy/
-│
-├── potato_disease_model.h5 # Saved CNN model
-├── train_model.py # Script to train and save the model
-├── predict_leaf.py # Local testing script for predictions
-├── app.py # Streamlit web app
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
-
 
 🧠 Model Summary
 
-The CNN model uses:
+--The CNN model uses:
 
-Conv2D and MaxPooling2D layers for feature extraction
+--Conv2D and MaxPooling2D layers for feature extraction
 
-Flatten and Dense layers for classification
+--Flatten and Dense layers for classification
 
-ReLU activation for non-linearity
+--ReLU activation for non-linearity
 
-Softmax activation in the output layer for multi-class classification
+--Softmax activation in the output layer for multi-class classification
 
-Training achieved an accuracy of around 93% on test data.
-
+--Training achieved an accuracy of around 93% on test data.
 
 🌐 Deployment
 
-You can deploy this app on Streamlit Cloud:
+--You can deploy this app on Streamlit Cloud:
 
-Push your code (excluding large files and venv/) to GitHub.
+--Push your code (excluding large files and venv/) to GitHub.
 
-Go to Streamlit Cloud
-.
+--Go to Streamlit Cloud
 
-Connect your GitHub repo and select app.py as the entry point.
+--Connect your GitHub repo and select app.py as the entry point.
 
-Add dependencies to requirements.txt.
-
-❤️ Acknowledgements
-
-Dataset: PlantVillage Dataset (Kaggle)
-
-Frameworks: TensorFlow, Streamlit
-
-Inspiration: Supporting smart agriculture through AI
+--Add dependencies to requirements.txt.
 
 
-“Turning leaves into data, and data into diagnosis.”
+
