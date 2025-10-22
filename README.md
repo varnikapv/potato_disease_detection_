@@ -29,7 +29,7 @@ Built using **TensorFlow**, **Keras**, and **Streamlit**, this project helps far
 
 🧠 Model Summary
 
---The CNN model uses:
+--The CNN model uses the following:
 
 --Conv2D and MaxPooling2D layers for feature extraction
 
@@ -41,7 +41,7 @@ Built using **TensorFlow**, **Keras**, and **Streamlit**, this project helps far
 
 --Training achieved an accuracy of around 93% on test data.
 
-🌐 Deployment
+🌐 Deployment:
 
 --You can deploy this app on Streamlit Cloud:
 
